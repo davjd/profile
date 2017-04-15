@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: a;
-    src: url("fonts/cream-DEMO.otf");
+    src: url("fonts/cream-DEMO.ttf");
 }
 
 @font-face {
@@ -14,20 +14,18 @@ body{
     top: 0px;
     margin:0px;
     font-family: a;
-    color: white;
+    color: rgba(201,180,174,1);
+    font-size: 1.1em;
+
 }
 
 #background{
     position:absolute;
     height:100vh;
     width:100vw;
+    background-color: rgba(249,223,216,.2);
 }
 
-#background img{
-    position: absolute;
-    height:100%;
-    width:100%;
-}
 
 #mid-body{
     position: relative;
@@ -35,7 +33,7 @@ body{
     width: 40vw;
     top: 20vh;
     left: 31vw;
-    background-color: rgba(238,255,255,.1);
+    background-color: rgba(166,104,88,.02);
 }
 
 
@@ -49,10 +47,11 @@ body{
 .header{
     color: rgba(255,215,0,1);
     font-weight: 400;
-    display: block;
     margin-top: 0vh;
     font-family: b;
-    font-size: 2em;
+    font-size: 1.5em;
+    width: 7vw;
+    border-bottom: 1px solid black;
     
 }
 
@@ -62,6 +61,93 @@ body{
 
 }
 
+.body-txt:hover{
+	background-color:white;
+}
+
+
 a{
-    color:wheat;
+    color:rgba(255,219,183,1);
+}
+
+a:hover{
+    color:rgba(0,0,0,1);
+}
+
+
+@media screen and (max-width: 700px) {
+    body{
+        font-size: 1.205em;
+    }
+    
+    #mid-body{
+        top:10vh;
+        left:15vw;
+        width: 70vw;
+    }
+    .header{
+        width: 25vw;
+        font-size: 1.6em;
+    }
+    
+    .body-txt{
+        margin-left: 2vw;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body{
+        font-size: .9em;
+    }
+    
+    #mid-body{
+        top:10vh;
+        left:12vw;
+        width: 72vw;
+    }
+    .header{
+        width: 25vw;
+        font-size: 1.6em;
+    }
+}
+
+@media screen and (max-height: 700px) and (min-height: 620px) {
+    body{
+        font-size: 1.05em;
+    }
+    #mid-body{
+        top:12vh;
+    }
+}
+
+@media screen and (min-width: 600px) {
+    body{
+        font-size: 1.55em;
+    }
+    
+    #mid-body{
+        top:15vh;
+        left:15vw;
+        width: 72vw;
+    }
+    .header{
+        width: 25vw;
+        font-size: 1.7em;
+    }
+}
+
+@media screen and (min-width: 900px) and (max-width: 1200px){
+    body{
+        font-size: 2em;
+    }
+    
+    #mid-body{
+        top:15vh;
+        left:15vw;
+        width: 75vw;
+    }
+    .header{
+        width: 25vw;
+        font-size: 1.7em;
+    }
 }
