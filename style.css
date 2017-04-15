@@ -16,16 +16,9 @@ body{
     font-family: a;
     color: rgba(201,180,174,1);
     font-size: 1.1em;
-
-}
-
-#background{
-    position:absolute;
-    height:100vh;
-    width:100vw;
     background-color: rgba(249,223,216,.2);
-}
 
+}
 
 #mid-body{
     position: relative;
