@@ -1,10 +1,3 @@
-
-
-@font-face {
-    font-family: a;
-    src: url("fonts/cream-DEMO.ttf");
-}
-
 @font-face {
     font-family: b;
     src: url("fonts/fut.ttf");
@@ -13,10 +6,10 @@
 body{
     top: 0px;
     margin:0px;
-    font-family: a;
-    color: #f8b3ad;
+    font-family: b;
+    color: rgba(247, 240, 233, 0.973);
     font-size: 1.1em;
-    background-color:#453D3F;
+    background-color:rgba(46, 80, 131, 0.74);
 
 }
 
@@ -26,7 +19,6 @@ body{
     width: 40vw;
     top: 20vh;
     left: 31vw;
-    background-color: rgba(166,104,88,.02);
 }
 
 
@@ -38,33 +30,28 @@ body{
 
 
 .header{
-    color: rgba(255,215,0,1);
+    color: rgba(212, 204, 198, 0.973);
     font-weight: 400;
     margin-top: 0vh;
     font-family: b;
     font-size: 1.5em;
     width: 7vw;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgba(138, 44, 44, 0.027);
     
 }
 
 .body-txt{
     display: block;
     margin-left: 5vw;
-
 }
-
-.body-txt:hover{
-	background-color:white;
-}
-
 
 a{
-    color:rgba(255,219,183,1);
+    color:rgba(247, 240, 233, 0.973);
+    text-decoration: none;
 }
 
 a:hover{
-    color:rgba(0,0,0,1);
+    color:rgba(250, 208, 167, 0.514);
 }
 
 
